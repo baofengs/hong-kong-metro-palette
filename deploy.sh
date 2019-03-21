@@ -17,8 +17,8 @@ echo 'building done\n'
 
 echo 'start deploying'
 ghPages -d dist
-echo -e 'deploy done\n'
+echo 'deploy done\n'
 
 rm -rf dist
-echo -e 'delete dist/ succeed'
+echo 'delete dist/ succeed'
 echo '=========================================='
