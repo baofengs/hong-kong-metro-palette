@@ -1,4 +1,4 @@
-<p align="center"><a href="https://hongkongmetrocolors.sanbaofengs.com/"><img alt="Hongkong metro" src="./hongkong-metro.png" width="480"></a></p>
+<p align="center"><a href="https://hongkongmetropalette.sanbaofengs.com/"><img alt="Hongkong metro" src="./hongkong-metro.png" width="480"></a></p>
 
 About
 ---
