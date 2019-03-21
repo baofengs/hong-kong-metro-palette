@@ -3,7 +3,7 @@
 About
 ---
 
-HongKong Metro Colors
+HongKong Metro Palette
 
 Inspired By
 ---
