@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 300 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="hongkong-metro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#C41832" points="-1.0658141e-14 0 7.15415419e-09 87 91.4053845 86.4670407 54.1434313 0.0578102008"></polygon>
+        <polygon id="Path-2" fill="#4BA946" points="245.860733 0 300 0 300 86 209.296335 85.8681017"></polygon>
+        <polygon id="Path-3" fill="#07B195" points="101.392517 213.246918 130.102013 280 169.810114 280 198.127516 213.646164 161.103961 197.09479 151.012793 219.607275 149.410163 219.607275 139.552734 196.526831"></polygon>
+        <polygon id="Path-4" fill="#077E7A" points="74.8467407 150.535461 101.392793 213.250749 139.554026 196.54052 112.04971 133.726206"></polygon>
+        <polygon id="Path-5" fill="#FCAE62" points="188.769984 133.547516 161.103961 197.09479 198.121111 213.648749 225.45683 149.89119"></polygon>
+        <polygon id="Path-6" fill="#FDDF55" points="7.11484915e-09 214.5 45.9981753 214.4957 46.0064632 280 7.11484915e-09 280"></polygon>
+        <polygon id="Path-7" fill="#89D2E3" points="7.11484915e-09 150.5 7.11484915e-09 214.5 46.0064632 214.5 46.0064632 150.5"></polygon>
+        <polygon id="Path-8" fill="#0376C2" points="0.00242614746 86.9998322 7.11484986e-09 150.5 46.0064632 150.5 46.0045929 86.7322998"></polygon>
+        <polygon id="Path-9" fill="#B8A1A9" points="47.8209745 86.709866 74.8317682 150.5 112.027923 133.674028 91.4020844 86.4670715"></polygon>
+        <polygon id="Path-10" fill="#81CDC1" points="209.226122 86.0038918 188.769984 133.547516 225.471948 149.86092 252.13656 85.937402"></polygon>
+        <polygon id="Path-11" fill="#F7B1BF" points="254.018301 86.0390496 253.965588 150.499794 300 150.5 299.989164 86.0281922"></polygon>
+        <polygon id="Path-12" fill="#7572A7" points="254 150.5 254 214.5 300.031354 214.486256 300.022382 150.5"></polygon>
+        <polygon id="Path-13" fill="#D0E4A9" points="254 214.5 254.057117 280 300.031354 280 300 214.5"></polygon>
+    </g>
+</svg>
