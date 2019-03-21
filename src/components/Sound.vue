@@ -93,6 +93,9 @@ export default {
             status: true
         }
     },
+    mounted () {
+        this.status = this.app.currentStates.sound === 'on' ? true : false;
+    },
     methods: {
         getRandomSoundName () {
             return this.soundNames[Math.floor(Math.random() * this.soundNames.length)];
@@ -101,6 +104,7 @@ export default {
             this.status = !this.status;
             const sound = this.status ? 'openhat' : '';
             this.play(sound);
+            this.app.setState({ sound: this.status ? 'on' : 'off' });
         },
         play (sound) {
             if (!this.status) return;

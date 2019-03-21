@@ -120,6 +120,9 @@ export default {
             currentId: 'hex'
         }
     },
+    mounted () {
+        this.currentId = this.app.currentStates.type || 'hex';
+    },
     methods: {
         hide () {
             this.showOptions = false;
@@ -131,6 +134,7 @@ export default {
             const id = option.id;
             this.currentId = id;
             this.app.type = id;
+            this.app.setState({ type: id });
             this.showOptions = false;
         }
     },

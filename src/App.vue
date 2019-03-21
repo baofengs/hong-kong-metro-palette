@@ -51,7 +51,7 @@
     <div id="app" class="pg" @click="onClick">
         <header class="pg-header">
             <hongkong-metro class="pg-header-logo"></hongkong-metro>
-            <div class="pg-header-title"><i-title>HongKong Metro Colors</i-title></div>
+            <div class="pg-header-title"><i-title>HongKong Metro Palette</i-title></div>
             <div class="pg-header-select">
                 <i-select ref="select"></i-select>
             </div>
@@ -76,9 +76,11 @@ import iSound from './components/Sound';
 import iTitle from './components/Title';
 import Copyright from './components/Copyright';
 import HongkongMetro from './assets/svgs/hongkong-metro.svg';
+import StateMixin from './components/StateMixin.js';
 
 export default {
     name: "App",
+    mixins: [StateMixin],
     provide () {
         return {
             app: this
