@@ -132,7 +132,7 @@ export default {
             this.copied = true;
             setTimeout(() => {
                 this.copied = false;
-            }, 700);
+            }, 1000);
         }
     }
 }

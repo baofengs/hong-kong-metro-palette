@@ -16,7 +16,7 @@ export const getColors = () => {
                 hex: color,
                 hexa: color.replace(/#/, ''),
                 rgb: `rgb(${red}, ${green}, ${blue})`,
-                rgba: `rgb(${red}, ${green}, ${blue}, ${alpha})`
+                rgba: `rgba(${red}, ${green}, ${blue}, ${alpha})`
             }
         });
     }, []);

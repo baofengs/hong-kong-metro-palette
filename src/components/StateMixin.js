@@ -3,7 +3,9 @@ import {encodeHash, decodeHash} from '../utils';
 export default {
     computed: {
         currentStates () {
-            return decodeHash(location.hash);
+            const states = decodeHash(window.location.hash);
+            this.type = states.type;
+            return states;
         }
     },
     methods: {
