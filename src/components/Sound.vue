@@ -94,7 +94,7 @@ export default {
         }
     },
     mounted () {
-        this.status = this.app.currentStates.sound === 'on' ? true : false;
+        this.status = this.app.currentStates.sound === 'off' ? false : true;
     },
     methods: {
         getRandomSoundName () {

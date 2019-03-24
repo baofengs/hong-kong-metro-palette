@@ -1,25 +1,17 @@
 module.exports = {
     chainWebpack: config => {
-        config.module
-            .rule('vue')
-            .use('vue-loader')
-            .loader('vue-loader')
-            .tap(options => {
-                options.transformAssetUrls = {
-                    audio: 'src',
-                }
-                return options;
-            });
-        config.module.rules.delete("svg");
+        const svgRule = config.module.rule('svg');
+        svgRule.uses.clear();
+        svgRule
+            .use('vue-svg-loader')
+            .loader('vue-svg-loader');
     },
-    configureWebpack: {
-        module: {
-            rules: [
-                {
-                    test: /\.svg$/,
-                    loader: 'vue-svg-loader',
-                }
-            ]
+    css: {
+        loaderOptions: {
+            css: {
+                localIdentName: '[hash:5]',
+                camelCase: 'only'
+            }
         }
     }
 };
