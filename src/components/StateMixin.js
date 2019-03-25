@@ -4,7 +4,7 @@ export default {
     computed: {
         currentStates () {
             const states = decodeHash(window.location.hash);
-            this.type = states.type;
+            this.type = states.type || 'hex';
             return states;
         }
     },
